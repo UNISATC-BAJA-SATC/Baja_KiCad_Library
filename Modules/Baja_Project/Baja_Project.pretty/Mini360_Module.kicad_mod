@@ -1,0 +1,228 @@
+(footprint "Mini360_Module"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "Baja SATC Converter Module")
+	(property "Reference" "REF**"
+		(at 1.1 -11.75 0)
+		(layer "F.SilkS")
+		(uuid "e431c68d-2407-4a6c-b126-b88ffc55ca45")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Mini360_Module"
+		(at 8.1 -6.225 0)
+		(layer "F.Fab")
+		(uuid "63283218-4d1c-4cde-b657-f6715588785f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 7.62 -5.115 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3039585c-bdb4-4a5a-a31f-c4678947729d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 7.62 -5.115 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3636e999-bdc5-44e4-a1b1-8be6204bb87c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 7.62 -5.115 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "35d84682-ba66-4efe-9241-aee56ae8adb3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.199999 1.2)
+		(end -1.199999 -0.299999)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3d66c66d-6898-493b-95cb-51f2c02f0e8f")
+	)
+	(fp_line
+		(start 0.3 1.2)
+		(end -1.199999 1.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f57ef44d-ae8c-4c0c-ada5-ec5ba7ca82bf")
+	)
+	(fp_line
+		(start 4.75 -4.625)
+		(end 11.75 -4.625)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fe3af36f-b44b-40ff-9f32-1dd0efe550d5")
+	)
+	(fp_line
+		(start 10.45 -5.925)
+		(end 11.75 -4.625)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bf033b58-2d65-48f8-b0c9-ab2fd19613c2")
+	)
+	(fp_line
+		(start 11.75 -4.625)
+		(end 10.45 -3.325)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8f38005e-b35c-4ec3-a8f3-663f8244635c")
+	)
+	(fp_rect
+		(start -0.9 -10.15)
+		(end 16.35 0.9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "090a59c1-ffc9-470f-9ed7-cedd7a2c7277")
+	)
+	(fp_rect
+		(start -1.4 -10.65)
+		(end 16.85 1.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "473bd8d9-f07d-476a-b0c5-afa330f5ad77")
+	)
+	(fp_text user "OUT+"
+		(at 12.0972 -0.001 180)
+		(layer "F.SilkS")
+		(uuid "081fa627-3a52-4d7c-a010-6b1662c95aa8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "IN-"
+		(at 2.6924 -9.2764 180)
+		(layer "F.SilkS")
+		(uuid "5e0601c2-300e-4a99-8ad3-1f65ba9374a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "IN+"
+		(at 2.6924 0.0244 180)
+		(layer "F.SilkS")
+		(uuid "6834be6e-4fd2-4387-b727-f732c1b8def3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "OUT-"
+		(at 12.0972 -9.3018 180)
+		(layer "F.SilkS")
+		(uuid "db7e239b-3883-486a-866a-a0773ffca22f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cb0fb88d-3b03-4524-b567-f59ed9d3f9a5")
+	)
+	(pad "2" thru_hole oval
+		(at 0 -9.25)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8a50e1a8-d77b-4025-b81d-5bff88b37026")
+	)
+	(pad "3" thru_hole oval
+		(at 15.45 0)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "40dd097a-4178-41a4-a850-1f72d6c906a7")
+	)
+	(pad "4" thru_hole oval
+		(at 15.45 -9.25)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dc9146c6-afd8-4784-b2c0-aac8df4943ed")
+	)
+	(model "C:/Users/alexc/Meu Drive/Projetos/Baja Satc/Placas Pcb/Libraries/Baja_Project/Baja_Project.3dshapes/Mini360_Module.step"
+		(offset
+			(xyz 7.6 4.05 -16)
+		)
+		(scale
+			(xyz 0.9 0.9445 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)

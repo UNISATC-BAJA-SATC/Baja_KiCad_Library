@@ -1,0 +1,256 @@
+(footprint "NRF24L01"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "NRF24L01")
+	(tags "nRF 24 NRF24L01 NRF24L01+")
+	(property "Reference" "REF**"
+		(at 0.5 -2.5 180)
+		(layer "F.SilkS")
+		(uuid "fcfc300d-0b03-4ded-b819-d836f0fab142")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "NRF24L01"
+		(at 10.5 4.75 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3c71950-9f3a-45ee-bc6d-975321c3d81a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cdc8e06e-4992-47c6-865c-471370f1664e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "38949929-abe3-42ed-9e73-4f0232d1ece8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e137566-6cd9-45d8-a56f-edf56bf78e08")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.27 -1.27)
+		(end 3.81 -1.27)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f627bb19-7162-4f0f-bc9a-5124c57fe790")
+	)
+	(fp_line
+		(start -1.27 6.35)
+		(end -1.27 -1.27)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fde9218b-3ba9-4dc6-97e2-3e9d8eb028b7")
+	)
+	(fp_line
+		(start -1.27 6.35)
+		(end -1.27 8.89)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0d41e0de-9cad-4290-ac58-254b11fc463a")
+	)
+	(fp_line
+		(start -1.27 8.89)
+		(end 1.27 8.89)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a271d7b3-3605-4362-af16-c205f5510930")
+	)
+	(fp_line
+		(start 1.236 -1.086)
+		(end 1.236 1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e00e005e-2143-4f4f-9163-9e1b6fed2b73")
+	)
+	(fp_line
+		(start 1.236 1.2)
+		(end -1.05 1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "02d74fb7-e03d-4703-bd83-76bb0f860924")
+	)
+	(fp_line
+		(start 3.81 -1.27)
+		(end 3.81 8.89)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3324e681-a801-47a4-bb2d-d83987262c15")
+	)
+	(fp_line
+		(start 3.81 8.89)
+		(end 1.27 8.89)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "88b05328-c5ac-4ce5-81e2-1f9ad8d762fb")
+	)
+	(fp_rect
+		(start -1.525 -1.525)
+		(end 4.075 9.125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "5268e310-a9d7-4035-a359-cd6bec277b1c")
+	)
+	(fp_rect
+		(start -1.525 -1.525)
+		(end 27.275 13.725)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "baf84eeb-09b5-46b9-b432-0cd460172af9")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0 90)
+		(size 1.762 1.762)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fe607ad6-acbe-45f0-bdfd-5936aa4563e7")
+	)
+	(pad "2" thru_hole oval
+		(at 2.54 0 90)
+		(size 1.762 1.762)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "931a1ad6-661d-43a8-9ae0-bb2d4e05a1ee")
+	)
+	(pad "3" thru_hole oval
+		(at 0 2.54 90)
+		(size 1.762 1.762)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4a715305-bd51-4536-93eb-3f4b57efbae2")
+	)
+	(pad "4" thru_hole oval
+		(at 2.54 2.54 90)
+		(size 1.762 1.762)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c7233b50-6eb6-43ed-9a08-e470a5345457")
+	)
+	(pad "5" thru_hole oval
+		(at 0 5.08 90)
+		(size 1.762 1.762)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "83842e03-b1ad-448c-a5e0-21cd436b17ef")
+	)
+	(pad "6" thru_hole oval
+		(at 2.54 5.08 90)
+		(size 1.762 1.762)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "16597297-5d81-4b7f-a436-aa65d8f4f8f1")
+	)
+	(pad "7" thru_hole oval
+		(at 0 7.62 90)
+		(size 1.762 1.762)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "83f82eb7-affe-409c-af19-8f7d68578890")
+	)
+	(pad "8" thru_hole oval
+		(at 2.54 7.62 90)
+		(size 1.762 1.762)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "348e7786-708d-492f-ad60-045497ab2232")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x04_P2.54mm_Vertical.step"
+		(offset
+			(xyz 2.54 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "C:/Users/alexc/Meu Drive/Projetos/Baja Satc/Placas Pcb/Libraries/Baja_Project/Baja_Project.3dshapes/NRF24L01.wrl"
+		(offset
+			(xyz -76.3 -133.8 10)
+		)
+		(scale
+			(xyz 0.395 0.395 0.395)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

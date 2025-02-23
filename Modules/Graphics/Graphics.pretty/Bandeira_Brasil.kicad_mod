@@ -1,0 +1,191 @@
+(footprint "Bandeira_Brasil"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "graphics brasil bandeira")
+	(property "Reference" "G***"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7a7502fa-cbe8-464c-b701-6b6a3b77da56")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Value" "LOGO"
+		(at 0.75 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "213ffdd9-8f4b-4bdc-8d02-e98a8795b02e")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d86f3ba3-c1e8-4259-9e53-7a486fe03dda")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11f3779e-42ce-4edc-84d8-da2ad2294a16")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(fp_poly
+		(pts
+			(xy -1.62191 -0.971336) (xy -1.569482 -0.956307) (xy -1.494554 -0.933941) (xy -1.404519 -0.906415)
+			(xy -1.387231 -0.901066) (xy -0.907867 -0.732234) (xy -0.445712 -0.528401) (xy -0.001451 -0.289977)
+			(xy 0.42423 -0.017375) (xy 0.830644 0.288994) (xy 1.217106 0.62872) (xy 1.302093 0.710548) (xy 1.604118 1.00623)
+			(xy 1.535145 1.107451) (xy 1.392239 1.285657) (xy 1.218514 1.449902) (xy 1.021125 1.595459) (xy 0.807224 1.717599)
+			(xy 0.583964 1.811595) (xy 0.385738 1.867211) (xy 0.258324 1.887679) (xy 0.111907 1.90072) (xy -0.040438 1.906004)
+			(xy -0.185637 1.903202) (xy -0.310616 1.891983) (xy -0.348561 1.88574) (xy -0.614983 1.815896) (xy -0.862166 1.714076)
+			(xy -1.088283 1.583013) (xy -1.291504 1.425436) (xy -1.470002 1.244077) (xy -1.621949 1.041666) (xy -1.745516 0.820935)
+			(xy -1.838875 0.584614) (xy -1.900198 0.335433) (xy -1.927656 0.076124) (xy -1.919422 -0.190582)
+			(xy -1.8854 -0.409847) (xy -1.863094 -0.497601) (xy -1.832385 -0.594482) (xy -1.796256 -0.693464)
+			(xy -1.757692 -0.787526) (xy -1.719679 -0.869642) (xy -1.685201 -0.93279) (xy -1.657242 -0.969946)
+			(xy -1.644445 -0.976849)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "dc4e83b4-72bd-4d19-a078-c07d68c61ba0")
+	)
+	(fp_poly
+		(pts
+			(xy 0.21827 -1.889212) (xy 0.459934 -1.841197) (xy 0.69322 -1.76328) (xy 0.914903 -1.656721) (xy 1.121756 -1.522779)
+			(xy 1.310553 -1.362714) (xy 1.478069 -1.177786) (xy 1.621077 -0.969253) (xy 1.736351 -0.738375) (xy 1.805936 -0.54015)
+			(xy 1.838458 -0.406229) (xy 1.864114 -0.257789) (xy 1.881397 -0.107797) (xy 1.888801 0.030779) (xy 1.88516 0.141607)
+			(xy 1.875538 0.220434) (xy 1.861999 0.307151) (xy 1.846271 0.393237) (xy 1.830075 0.470175) (xy 1.815139 0.529447)
+			(xy 1.803185 0.562533) (xy 1.799107 0.566615) (xy 1.781177 0.55353) (xy 1.742275 0.518134) (xy 1.688583 0.466217)
+			(xy 1.640741 0.418311) (xy 1.308886 0.106407) (xy 0.945837 -0.188471) (xy 0.556992 -0.463013) (xy 0.147749 -0.71391)
+			(xy -0.276496 -0.937852) (xy -0.710346 -1.131532) (xy -1.147885 -1.291471) (xy -1.229271 -1.318922)
+			(xy -1.294742 -1.342984) (xy -1.336676 -1.360725) (xy -1.348154 -1.368436) (xy -1.333345 -1.387303)
+			(xy -1.293855 -1.422723) (xy -1.237088 -1.468944) (xy -1.17045 -1.520214) (xy -1.101345 -1.570783)
+			(xy -1.037179 -1.614897) (xy -1.002796 -1.636682) (xy -0.767637 -1.757067) (xy -0.524724 -1.841253)
+			(xy -0.277285 -1.8905) (xy -0.028545 -1.906066)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "97ef7ebf-9b77-40df-bce2-5f15554f5b1c")
+	)
+	(fp_poly
+		(pts
+			(xy 5.001846 3.16523) (xy -5.001846 3.16523) (xy -5.001846 0.001957) (xy -4.015154 0.001957) (xy -3.999674 0.016197)
+			(xy -3.954764 0.051557) (xy -3.882727 0.106368) (xy -3.785859 0.178963) (xy -3.666462 0.267674) (xy -3.526834 0.370832)
+			(xy -3.369275 0.48677) (xy -3.196084 0.61382) (xy -3.009561 0.750314) (xy -2.812006 0.894584) (xy -2.605717 1.044961)
+			(xy -2.392994 1.199778) (xy -2.176137 1.357367) (xy -1.957445 1.516059) (xy -1.739218 1.674188) (xy -1.523755 1.830084)
+			(xy -1.313355 1.982081) (xy -1.110318 2.128509) (xy -0.916944 2.267701) (xy -0.735531 2.397989) (xy -0.56838 2.517705)
+			(xy -0.41779 2.625181) (xy -0.286059 2.718749) (xy -0.175489 2.796741) (xy -0.088377 2.857489) (xy -0.027025 2.899325)
+			(xy 0.00627 2.920581) (xy 0.011697 2.922963) (xy 0.029971 2.910627) (xy 0.077935 2.876682) (xy 0.153678 2.82251)
+			(xy 0.255291 2.749489) (xy 0.380865 2.659002) (xy 0.528489 2.552429) (xy 0.696254 2.43115) (xy 0.88225 2.296546)
+			(xy 1.084568 2.149998) (xy 1.301297 1.992886) (xy 1.530528 1.82659) (xy 1.770352 1.652492) (xy 2.018858 1.471971)
+			(xy 2.029944 1.463915) (xy 2.278374 1.283235) (xy 2.517809 1.108801) (xy 2.746372 0.941995) (xy 2.962184 0.784203)
+			(xy 3.163364 0.636807) (xy 3.348035 0.501191) (xy 3.514317 0.378741) (xy 3.660332 0.270838) (xy 3.7842 0.178867)
+			(xy 3.884042 0.104212) (xy 3.957979 0.048257) (xy 4.004133 0.012386) (xy 4.020624 -0.002018) (xy 4.020633 -0.002159)
+			(xy 4.004568 -0.015135) (xy 3.959168 -0.049374) (xy 3.886728 -0.103204) (xy 3.789545 -0.174953) (xy 3.669913 -0.26295)
+			(xy 3.530128 -0.365524) (xy 3.372487 -0.481004) (xy 3.199285 -0.607716) (xy 3.012817 -0.743991) (xy 2.81538 -0.888156)
+			(xy 2.609269 -1.038541) (xy 2.39678 -1.193473) (xy 2.180208 -1.351281) (xy 1.961849 -1.510293) (xy 1.744 -1.668838)
+			(xy 1.528955 -1.825245) (xy 1.31901 -1.977842) (xy 1.116461 -2.124957) (xy 0.923605 -2.26492) (xy 0.742735 -2.396057)
+			(xy 0.576149 -2.516699) (xy 0.426142 -2.625173) (xy 0.295009 -2.719807) (xy 0.185047 -2.798932) (xy 0.098551 -2.860874)
+			(xy 0.037816 -2.903962) (xy 0.005139 -2.926525) (xy 0 -2.929592) (xy -0.017921 -2.918325) (xy -0.064987 -2.885642)
+			(xy -0.138908 -2.833215) (xy -0.237391 -2.762717) (xy -0.358145 -2.675821) (xy -0.498879 -2.574201)
+			(xy -0.657299 -2.45953) (xy -0.831116 -2.333481) (xy -1.018037 -2.197727) (xy -1.215771 -2.053942)
+			(xy -1.422025 -1.903798) (xy -1.634509 -1.748969) (xy -1.85093 -1.591127) (xy -2.068998 -1.431947)
+			(xy -2.28642 -1.273101) (xy -2.500904 -1.116263) (xy -2.71016 -0.963105) (xy -2.911894 -0.815302)
+			(xy -3.103817 -0.674525) (xy -3.283636 -0.542448) (xy -3.449059 -0.420745) (xy -3.597795 -0.311089)
+			(xy -3.727551 -0.215152) (xy -3.836038 -0.134608) (xy -3.920962 -0.071131) (xy -3.980032 -0.026392)
+			(xy -4.010957 -0.002067) (xy -4.015154 0.001957) (xy -5.001846 0.001957) (xy -5.001846 -3.165231)
+			(xy 5.001846 -3.165231)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "f64647af-7395-4508-b064-0cbda91619c1")
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "Bandeira_Brasil.kicad_mod")
+			(type other)
+			(data |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
+				/qA3T16U+oHIuwo=|
+			)
+			(checksum "933F17CD237AC490D313214D86DE76EC")
+		)
+	)
+)
